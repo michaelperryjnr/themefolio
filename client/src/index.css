@@ -9,9 +9,16 @@
     color: white;
 }
 
+*>*::selection{
+  @apply bg-blue-600 text-black
+}
 
 html {
   scroll-behavior: smooth;
   background-color: black;
+}
+
+section {
+  z-index : 99;
 }
 
