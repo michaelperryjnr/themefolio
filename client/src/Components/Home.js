@@ -7,7 +7,7 @@ import heroImg from '../assets/heroimg.png'
 export default function Home() {
   return (
     <>
-      <section className="hero-section mx-auto h-screen relative flex-1  flex flex-col justify-center lg:justify-between px-6 py-6 overflow-hidden">
+      <section className="hero-section mx-auto h-screen relative flex-1  flex flex-col justify-center lg:justify-between px-6 py-6 overflow-hidden" id="home">
         <div className="flex flex-row justify-between  relative max-sm:justify-center max-sm:py-8 ">
           <a
             className="text-blue-600 font-semibold text-3xl max-sm:text-3xl"
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-sm:my-6">
+        <div className="max-sm:my-6 cursor-default">
           <div>
             <h2 className="text-2xl font-semibold max-sm:text-xl max-sm:text-center">
               Web Developer & SWE
