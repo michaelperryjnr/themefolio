@@ -9,6 +9,7 @@ import Projects from "./Sections/Projects";
 import About from "./Sections/About";
 import Contact from "./Sections/Contact";
 import CheckDarkMode from "./scripts/darkmodeConfig"
+import ToogleTest from "./Components/ToggleTest";
 
 /**Creating routes */
 const router = createBrowserRouter([
@@ -39,8 +40,9 @@ function App() {
   CheckDarkMode()
   return (
     <>
-      <Nav />
-      <RouterProvider router={router}></RouterProvider>
+      {/* <Nav />
+      <RouterProvider router={router}></RouterProvider> */}
+      <ToogleTest />
     </>
   );
 }
