@@ -22,3 +22,35 @@ section {
   z-index : 99;
 }
 
+.circleLine {
+  @apply inline-flex flex-col justify-center items-center
+}
+
+.circle {
+  @apply border-4 border-green-600 min-h-8 min-w-8 rounded-full max-sm:min-h-6 max-sm:min-w-6
+}
+
+.line {
+  @apply border-2 h-full border-green-600
+}
+
+
+.roadmap {
+  @apply inline-flex gap-4 max-sm:gap-1
+}
+
+.roadmap-textbox {
+@apply flex flex-col items-center justify-center pr-12 py-4 max-sm:py-2 max-sm:px-4
+}
+
+.roadmap-textbox p {
+  @apply text-xl max-sm:text-base
+}
+
+.roadmap-textbox-title {
+  @apply flex items-center pl-4 
+}
+
+.roadmap-textbox-title h2 {
+  @apply text-2xl font-semibold max-sm:text-lg
+}
