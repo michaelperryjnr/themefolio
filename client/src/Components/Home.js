@@ -30,7 +30,7 @@ export default function Home() {
           <div className="w-96 h-96 item-center rounded-full border-[15px] border-blue-600 flex fle-col justify-center items-center max-sm:w-44 max-sm:h-44 px-52 py-52 max-sm:px-40 max-sm:py-40">
             <div className="w-96 w h-96 item-center rounded-full border-[20px] border-green-600 blur-lg max-sm:w-56 max-sm:h-56 px-52 py-52 max-sm:px-40 max-sm:py-40"></div>
           </div>
-          <div className="absolute h-full max-sm:bottom-4 flex items-center justify-center pt-20">
+          <div className="absolute h-full max-sm:bottom-4 flex items-center justify-center pt-20 max-sm:items-center max-sm:justify-center max-sm:right-6">
             <img src={heroImg} alt="" className="" />
           </div>
         </div>
