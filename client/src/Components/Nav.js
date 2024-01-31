@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 export default function Nav() {
   return (
     <header className="flex  justify-end items-center absolute inset-0 max-sm:justify-center max-sm:hidden">

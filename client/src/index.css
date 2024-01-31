@@ -34,13 +34,39 @@ section {
   @apply border-2 h-full border-green-600
 }
 
+.circleLine-child {
+  @apply flex justify-start items-center
+}
+
+
+.circle-child {
+  @apply  bg-blue-600 min-h-5 min-w-5 rounded-full max-sm:min-h-3 max-sm:min-w-3
+}
+
+/* .line-child {
+  @apply max-sm:h-full max-sm:border-blue-600 max-sm:border-2
+} */
+
+.roadmap-textbox-child {
+@apply flex flex-row  gap-4 max-sm:gap-0 justify-center items-center 
+}
+
+.roadmap-child {
+  @apply inline-flex flex-nowrap
+}
+
+.roadmap-textbox-child-first {
+  @apply pr-12 py-4 max-sm:py-2 max-sm:px-4  grid md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 px-6 max-sm:grid-cols-1
+}
+
+
 
 .roadmap {
   @apply inline-flex gap-4 max-sm:gap-1
 }
 
 .roadmap-textbox {
-@apply flex flex-col items-center justify-center pr-12 py-4 max-sm:py-2 max-sm:px-4
+@apply flex flex-col items-center justify-center pr-12 py-4 max-sm:py-2 max-sm:px-4 max-sm:items-start
 }
 
 .roadmap-textbox p {
@@ -48,9 +74,25 @@ section {
 }
 
 .roadmap-textbox-title {
-  @apply flex items-center pl-4 
+  @apply flex pl-4 gap-0
 }
 
 .roadmap-textbox-title h2 {
   @apply text-2xl font-semibold max-sm:text-lg
+}
+
+.index-htwo h2 {
+  @apply max-sm:text-[0.95rem] max-sm:font-semibold max-sm:text-left
+}
+
+.index-p {
+  @apply flex flex-row gap-4
+}
+
+.index-p .role {
+  @apply font-semibold text-emerald-500
+}
+
+.index-p p {
+  @apply max-sm:text-sm
 }
