@@ -19,6 +19,7 @@ app.get("/", (req,res) => {
     res.status(201).json('This is the default route')
 })
 
+//initialize db connection before starting server 
 connect()
     .then(() => {
         try {
