@@ -22,11 +22,11 @@ export default function Roadmap(texttitle, text) {
                   </div>
                   <div className="roadmap-textbox-child">
                     <div className="roadmap-textbox-title index-htwo">
-                      <h2>{index.school || index.company}</h2>
+                      <h2>{index.school || index.company || index.hobby}</h2>
                     </div>
                     <div className="roadmap-textbox index-p">
                       <p className="role">{index.role}</p>
-                      <p>{index.yearAttended || index.duration}</p>
+                      <p>{index.yearAttended || index.duration || index.details || ""}</p>
                     </div>
                   </div>
                 </div>
