@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
 
 /** importing all components*/
 import Home from "./Components/Home";
@@ -41,6 +42,7 @@ function App() {
     <>
       <Nav />
       <RouterProvider router={router}></RouterProvider>
+      {reportWebVitals()}
     </>
   );
 }
