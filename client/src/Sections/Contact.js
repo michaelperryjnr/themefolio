@@ -1,4 +1,6 @@
 import React from "react";
+import { FaXTwitter, FaGithub, FaLinkedin, FaWhatsapp, FaInstagram, FaDiscord } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 
 export default function Contact() {
   return (
@@ -32,20 +34,26 @@ export default function Contact() {
             Submit
           </button>
           <div className="flex flex-row items-center justify-center px-3 py-10 gap-4">
-            <a href="/" target="blank">
-              Github
+            <a href="https://github.com/michaelperryjnr" target="blank">
+              <FaGithub className="md:w-[40px] md:h-[40px]" />
             </a>
             <a href="/" target="blank">
-              LinkedIn
+              <FaDiscord className="md:w-[40px] md:h-[40px]" />
+            </a>
+            <a href="https://gh.linkedin.com/in/mptettey" target="blank">
+              <FaLinkedin className="md:w-[40px] md:h-[40px]" />
+            </a>
+            <a href="https://x.com/michaelperryjnr" target="blank">
+              <FaXTwitter className="md:w-[40px] md:h-[40px]" />
             </a>
             <a href="/" target="blank">
-              X
+              <SiGmail className="md:w-[40px] md:h-[40px]" />
             </a>
             <a href="/" target="blank">
-              Mail
+              <FaWhatsapp className="md:w-[40px] md:h-[40px]" />
             </a>
-            <a href="/" target="blank">
-              Phone
+            <a href="https://instagram.com/michaelperryjnr" target="blank">
+              <FaInstagram className="md:w-[40px] md:h-[40px]" />
             </a>
           </div>
         </form>
