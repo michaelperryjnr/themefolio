@@ -12,7 +12,7 @@ export default function About() {
             <img src="https://placeholder.com/500x500" alt="profile" />
           </div>
           <div className="w-3/4">
-            <p className="text-3xl font-medium text-gray-400 max-sm:text-xl">
+            <p className="text-3xl font-medium text-gray-400 max-sm:text-sm">
               I'm a passionate full-stack developer with a love for creating
               elegant solutions to complex problems. My journey started with a
               simple "Hello, World!" and has led me to build and deploy scalable
@@ -23,46 +23,46 @@ export default function About() {
         </div>
         <div className="grid grid-cols-2 items-center justify-center md:gap-16 max-sm:flex max-sm:flex-col max-sm:gap-4 py-10">
           <div className="w-1/4">
-            <h2 className="text-gray-500 text-6xl font-semibold  max-sm:text-center max-sm:text-4xl">
+            <h2 className="text-gray-500 text-6xl font-semibold  max-sm:text-center max-sm:text-2xl">
               Skills
             </h2>
           </div>
           <div className=" justify-start items-start  w-3/4">
             <div className="grid grid-cols-2  gap-x-10 gap-y-10  max-sm:justify-self-center max-sm:gap-x-3 max-sm:gap-y-5 max-sm:py-4">
               <div className="flex items-center gap-4">
-                <CodeIcon className="w-10 h-10 max-sm:w-6 max-sm:h-6 flex-shrink-0" />
-                <span className="max-sm:text-xl text-2xl text-yellow-500">
+                <CodeIcon className="w-10 h-10 max-sm:w-4 max-sm:h-4 flex-shrink-0" />
+                <span className="max-sm:text-sm text-2xl text-yellow-500">
                   JavaScript
                 </span>
               </div>
               <div className="flex items-center gap-4">
-                <TerminalIcon className="w-10 h-10 max-sm:w-6 max-sm:h-6 flex-shrink-0" />
-                <span className="max-sm:text-xl text-2xl text-blue-400">
+                <TerminalIcon className="w-10 h-10 max-sm:w-4 max-sm:h-4 flex-shrink-0" />
+                <span className="max-sm:text-sm text-2xl text-blue-400">
                   TypeScript
                 </span>
               </div>
               <div className="flex items-center gap-4">
-                <GlobeIcon className="w-10 h-10 max-sm:w-6 max-sm:h-6 flex-shrink-0" />
-                <span className="max-sm:text-xl text-2xl text-gray-600">
+                <GlobeIcon className="w-10 h-10 max-sm:w-4 max-sm:h-4 flex-shrink-0" />
+                <span className="max-sm:text-sm text-2xl text-gray-600">
                   ExpressJS
                 </span>
               </div>
               <div className="flex items-center gap-4">
-                <ComponentIcon className="w-10 h-10 max-sm:w-6 max-sm:h-6 flex-shrink-0" />
-                <span className="max-sm:text-xl text-2xl">
-                  <span className="max-sm:text-xl text-blue-500">ReactJs</span>/
-                  <span className="max-sm:text-xl text-gray-400">NextJS</span>
+                <ComponentIcon className="w-10 h-10 max-sm:w-4 max-sm:h-4 flex-shrink-0" />
+                <span className="max-sm:text-sm text-2xl">
+                  <span className="max-sm:text-sm text-blue-500">ReactJs</span>/
+                  <span className="max-sm:text-sm text-gray-400">NextJS</span>
                 </span>
               </div>
               <div className="flex items-center gap-4">
-                <DatabaseIcon className="w-10 h-10 max-sm:w-6 max-sm:h-6 flex-shrink-0" />
-                <span className="max-sm:text-xl text-2xl text-green-500">
+                <DatabaseIcon className="w-10 h-10 max-sm:w-4 max-sm:h-4 flex-shrink-0" />
+                <span className="max-sm:text-sm text-2xl text-green-500">
                   Mongo<span>DB</span>
                 </span>
               </div>
               <div className="flex items-center gap-4">
-                <ServerIcon className="w-10 h-10 max-sm:w-6 max-sm:h-6 flex-shrink-0" />
-                <span className="max-sm:text-xl text-2xl text-green-800">
+                <ServerIcon className="w-10 h-10 max-sm:w-4 max-sm:h-4 flex-shrink-0" />
+                <span className="max-sm:text-sm text-2xl text-green-800">
                   NodeJS
                 </span>
               </div>
