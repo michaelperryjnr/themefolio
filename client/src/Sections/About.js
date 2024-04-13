@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../assets/profile1.jpeg"
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
         </h1>
         <div className="flex flex-row gap-4 items-center justify-center px-10 py-10 max-sm:flex-col max-sm:py-2 max-sm:px-2 max-sm:text-center">
           <div className="w-1/4 flex items-center gap-4 justify-center">
-            <img src="https://placeholder.com/500x500" alt="profile" />
+            <img className="rounded-[20%] max-sm:rounded-full" src={profile} width={500} height={500} alt="profile" />
           </div>
           <div className="w-3/4">
             <p className="text-3xl font-medium text-gray-400 max-sm:text-sm">
