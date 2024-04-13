@@ -9,10 +9,10 @@ export default function About() {
           About
         </h1>
         <div className="flex flex-row gap-4 items-center justify-center px-10 py-10 max-sm:flex-col max-sm:py-2 max-sm:px-2 max-sm:text-center">
-          <div className="w-2/5 flex items-center gap-4 justify-center">
+          <div className="w-1/4 max-sm:w-2/5 flex items-center gap-4 justify-center">
             <img className="rounded-[20%] max-sm:rounded-full" src={profile} width={650} height={650} alt="profile" />
           </div>
-          <div className="w-3/5">
+          <div className=" w-3/4 max-sm:w-3/5">
             <p className="text-3xl font-medium text-gray-400 max-sm:text-sm">
               I'm a passionate full-stack developer with a love for creating
               elegant solutions to complex problems. My journey started with a
