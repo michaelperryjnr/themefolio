@@ -13,13 +13,13 @@ export default function Home() {
       >
         <div className="flex flex-row justify-between  relative max-sm:justify-center max-sm:py-8 ">
           <a
-            className="text-emerald-700 font-semibold text-3xl max-sm:text-3xl"
+            className="text-slate-700 font-semibold text-3xl max-sm:text-3xl"
             href="/"
           >
-            The<span className="text-blue-600">MeFolio</span>
+            The<span className="text-gray-300">MeFolio</span>
           </a>
           <a
-            className="t text-emerald-600 font-semibold text-3xl text-right max-sm:[display:none]"
+            className=" text-cyan-700 font-semibold text-3xl text-right max-sm:[display:none]"
             href="/"
           >
             Tettey <br />
