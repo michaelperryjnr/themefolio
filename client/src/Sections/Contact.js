@@ -10,7 +10,7 @@ export default function Contact() {
           className="h-screen px-4 py-6 container mx-auto flex justify-center items-center flex-col"
           id="WaitlistForm"
         >
-          <h1 className="text-center font-bold text-5xl text-gray-300 mb-7 max-sm:text-4xl max-sm:my-3">
+          <h1 className="text-center font-bold text-6xl text-gray-300 mb-7 max-sm:text-4xl max-sm:my-3">
             Contact
           </h1>
           <div className="flex flex-col gap-7 px-3 py-4 my-4">
