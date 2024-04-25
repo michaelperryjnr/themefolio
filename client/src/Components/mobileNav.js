@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MdMenu } from "react-icons/md";
-import { MdClose } from "react-icons/md";
+// import { MdClose } from "react-icons/md";
 export default function MobileNav() {
   const [showNav, setShowNav] = useState(false);
   useEffect(() => {
