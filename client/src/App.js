@@ -10,6 +10,7 @@ import Projects from "./Sections/Projects";
 import About from "./Sections/About";
 import Contact from "./Sections/Contact";
 import CheckDarkMode from "./scripts/darkmodeConfig"
+import MobileNav from "./Components/mobileNav";
 
 /**Creating routes */
 const router = createBrowserRouter([
@@ -41,6 +42,7 @@ function App() {
   return (
     <>
       <Nav />
+      <MobileNav />
       <RouterProvider router={router}></RouterProvider>
       {reportWebVitals()}
     </>
